@@ -1,0 +1,430 @@
+/*General*/
+
+*{
+    box-sizing: border-box;
+}
+
+.fix_size_container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.non_a{
+    text-decoration: none;
+}
+
+.inline_block{
+    display: inline-block;
+}
+
+/*Header*/
+
+.background_1{
+    background: #E5E5E5;
+}
+
+.background_2{
+    background: #FFFFFF;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.helping_padding_for_nav{
+    padding: 17px 0 16px;
+}
+
+.item_1{
+    margin-right: 30px;
+}
+
+.first_navigation{
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.nav_1:hover{
+    color: #ec96af;
+    text-decoration: underline #ec96af;
+}
+
+.nav_1:active{
+    color: #F13C6E;
+    text-decoration: none;
+}
+
+.box_left{
+    float: left;
+}
+
+.box_right{
+float: right;
+}
+
+.helping_margin{
+    margin: 20px 0;
+    height: 80px;
+    width: 80px;
+}
+
+.helping_padding_for_logo_name{
+    margin: 41px 0 40px;
+}
+
+.logo_name{
+    font-family: "Roboto-Black";
+    font-size: 36px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #F13C6E;
+    padding-left: 20px;  
+}
+
+.button_call{
+    
+    background: #FFFFFF;
+    color: #000000;
+    border: 2px solid #F13C6E;
+    border-radius: 40px;
+    width: 170px;
+    height: 40px;
+    margin: 40px 0;
+    cursor: pointer;
+}
+
+.button_call:hover{
+    background: #ec96af;
+    border: 2px solid #F13C6E;
+}
+
+.button_call:active{
+    background: #F13C6E;
+    border: 2px solid #F13C6E;
+}
+
+.number{
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.margin_for_button{
+    margin: 50px 40px 51px 0;
+}
+
+.hr{
+    border: 1px solid #EFEFEF;
+    margin: 0;
+}
+
+.item_2{
+    margin-right: 40px;
+}
+
+.helping_padding_second{
+    padding: 30px 0;
+}
+
+/*header end*/
+
+/*main*/
+
+.background_image{
+    background-image: url("../images/Rectangle2.png");
+    height: 604px;
+}
+
+.padding_for_super_chair{
+    padding-top: 192px;
+}
+
+.super_chair{
+    font-family: "Roboto-Bold";
+    font-size: 48px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.padding_for_text_1{
+    padding: 50px 0;
+}
+
+.width_for_text_1{
+    width: 308px;
+    height: 35px;
+}
+
+.text_1{
+    font-family:  "Roboto-Light";
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.padding_for_button_more{
+    padding-bottom: 193px;
+}
+
+.border_for_button_more{
+    border: 2px solid #FFFFFF;
+}
+
+.button_more{
+    width: 170px;
+    height: 40px;
+    background: #F13C6E;
+    border-radius: 40px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button_more:hover{
+    background: #d34069;
+    border: 2px solid #FFFFFF;
+}
+
+.button_more:active{
+    background: #df0945;
+    border: 2px solid #FFFFFF;
+}
+
+.padding_for_special_offer{
+    padding: 80px 0 38px;
+}
+
+.text_special_offer{
+    font-family: "Roboto-Bold";
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+/*белые карточки*/
+
+.card_price_size_and_background{
+    width: 255px;
+    height: 363px;
+    background: #FFFFFF;
+}
+
+.office_chair_padding{
+    padding: 25px 65px 20px;
+}
+
+.text_for_card{
+    font-family: "Roboto-Regular";
+    font-size: 14px;
+    line-height: 16.5px;
+    text-align: center;
+    color: #333333;
+}
+
+.size_of_text_for_card_and_margin{
+    width: 195px;
+    margin: 0 auto 20px;
+}
+
+.price{
+    font-family: "Roboto-Bold";
+    font-size: 21px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.size_and_padding_for_buy{
+    width: 130px;
+    height: 35px;
+    margin: 20px 63px 25px 62px;
+    border: none;
+    padding: 0;
+}
+
+.margin_left{
+    margin-left: 30px;
+}
+
+/*красные карточки*/
+
+.padding_for_red_cards{
+    padding: 100px 0;
+}
+
+.background_and_size{
+    width: 540px;
+    height: 212px;
+    background: #F13C6E;
+}
+
+.size_of_part_of_red_card{
+    height: 212px;
+    width: 355px;
+    margin: 0;
+}
+
+.padding_for_text_bonus{
+    padding: 35px 0 25px 40px;
+}
+
+.text_bonus{
+    font-family: "Roboto-Light";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+
+.color_white{
+    color: #FFFFFF;;
+}
+
+.size_for_text_for_red_cards_and_padding{
+    width: 280px;
+    margin: 0;
+    line-height: 20px;
+    text-align: left;
+    padding: 0 0 25px 40px;
+}
+
+.margin_for_email{
+    margin-left: 40px;
+}
+
+.email{
+    width: 225px;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+}
+
+.padding_for_group_1{
+    padding: 52.73px 45px 52.73px 0;
+}
+
+.margin_left_for_red_card{
+    margin-left: 30px;
+}
+
+.size_of_button_map{
+    height: 35px;
+    margin-left: 40px;
+}
+
+.size_of_second_red_card{
+  width: 306px;  
+}
+
+.padding_for_car{
+    padding-top: 56px ;
+    align-content: center;
+}
+
+/*таблица*/
+
+.hr_table{
+    border: 1px solid #EFEFEF;
+}
+
+.vertical{
+    transform: rotate(90deg);
+    margin: 0;
+    height: 119px;
+}
+
+.size_content_table{
+    width: 276px;
+    height: 119px;
+}
+
+.small_margin{
+    margin: 0 1px 1px 0;
+}
+
+.small_margin:nth-of-type(4n+4){
+    margin-right: 0;
+}
+
+.padding_shop{
+   padding: 35px 69px 35px 60px; 
+}
+
+/*"вы недавно смотрели" и 4 белые карточки */
+
+.padding_for_gray{
+    padding-bottom: 81px;
+}
+
+/*популярные категории*/
+
+.padding_for_categori{
+    padding: 60px 0;
+    width: 255px;
+}
+
+.margin_right_categori{
+    margin-right: 30px;
+}
+
+.txt_categori{
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    width: 99px;
+}
+
+.margin_for_hr{
+    margin: 30px 0 25px;
+}
+
+.small_nav{
+    width: 82px;
+}
+
+.color_nav{
+    color: #828282;
+    line-height: 28px;
+}
+
+/*main end*/
+
+/*foter*/
+
+.logo_img{
+    margin: 37px 0 38px;
+}
+
+.margin_for_img {
+    margin-right: 20px;
+}
+
+.fix_line_height{
+    padding: 25px 0;
+}
+
+.color_gray{
+    color: #828282;
+    line-height: 14px;
+}
+
+.color_gray:hover{
+    color: #332323;
+    text-decoration: underline;
+}
+
+.color_gray:active{
+    color: #000000;
+    text-decoration: none;
+}
