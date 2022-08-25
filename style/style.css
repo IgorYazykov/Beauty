@@ -419,12 +419,12 @@ float: right;
     line-height: 14px;
 }
 
-.color_gray:hover{
+.active:hover{
     color: #332323;
     text-decoration: underline;
 }
 
-.color_gray:active{
+.active:active{
     color: #000000;
     text-decoration: none;
 }
